@@ -29,16 +29,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/photo-pasadena.jpeg" alt="" /></span>
+							<span class="image fit"><img src="images/Montet_Cropped.png" alt="" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
 								<h1><strong>Benjamin Montet</strong></h1>
 							</header>
-                            <p>Hi there! I'm the Scientia Senior Lecturer in the <a href=https://phys.unsw.edu.au>School of Physics</a> at the University of New South Wales, where I lead
-								the <a href="https://newts.space">NEarby Worlds and Their Stars (NEWTS)</a> group.
+                            <p>Hi there! I'm a Scientia Associate Professor in the <a href=https://phys.unsw.edu.au>School of Physics</a> at the University of New South Wales, where I lead
+								the <a href="https://newts.space">NEarby Worlds and Their Stars (NEWTS)</a> group. That link takes you to our group's webpage.
                             Our research group is focused on finding and understanding new planets orbiting stars other than the Sun, and developing new methods to better understand how
-                                stellar activity changes across stellar lifetimes. To do these, I use data from the NASA <i>Kepler</i> and <i>TESS</i> missions, as well as from 
+                                stellar activity changes across stellar lifetimes. To do these, we use data from the NASA <i>Kepler</i> and <i>TESS</i> missions, as well as from
                                 ground-based facilities in Australia and abroad.
                             </p>
                             <p>I'm always happy to discuss potential projects with students at all levels from undergraduate to Ph.D. If you're a current or prospective UNSW student,
@@ -59,7 +59,7 @@
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
                                 <span class="image fit"><img src="images/f3.png" alt="" /></span>                           
-                                <h3>Long-Term Photometric Variability of Kepler Stars</h3>
+                                <h3>Long-Term Photometric Variability of Stars</h3>
                                     <p><i>Kepler</i> has measured short-term variations in the observed flux of hundreds of thousands of stars
                                     as a part of its search for exoplanets. During this search, signs of long-term variability
                                     in the stars are intentionally destroyed. Full-frame image (FFI) data from <i>Kepler</i> provide
@@ -67,42 +67,50 @@
                                     We've developed <a href="http://github.com/benmontet/f3">a method</a> to do just that, 
                                     which we've applied to <a href="http://adsabs.harvard.edu/abs/2016ApJ...830L..39M">KIC 8462852</a> to understand its 
                                     environment and to 5,000 <a href="http://adsabs.harvard.edu/abs/2017ApJ...851..116M">Sun-like stars</a> to understand their starspot and facular coverage.
-                                    I'm excited about applying this to all stars observed by <i>Kepler</i> to understand how stellar fundamental parameters 
+                                    I'm excited about applying this to a larger sample of stars, and combining it with observations of stars over
+										longer time baselines, such as with <i>TESS</i>, <i>Roman</i>, and the Rubin Observatory,
+										to understand how stellar fundamental parameters
                                     affect the magnitude and
                                     evolution of stellar activity, and the implications for planetary habitability.
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-                                <span class="image fit"><img src="images/eleanor.gif" alt="" /></span>          
+                                <span class="image fit"><img src="images/ttvs.png" alt="" /></span>
                                 <br><br>
 								<h3>Planetary Dynamics with TESS</h3>
 								<p>The NASA <i>TESS</i> mission has provided us with data on millions of stars, many of which host orbiting planets.
 									<i>TESS</i> has now observed for longer than the primary <i>Kepler</i> mission, enabling transit and eclipse timing
 									variations to become apparent in this dataset. With the large Full-Frame Images from this mission, there is still
 									a lot to explore.
-                                I am the Principal Investigator of the <a href="https://github.com/afeinstein20/eleanor">eleanor</a> project to produce the best 
-                                possible light curves for these stars. We are searching these stars for planets and using these data to better understand
-                                stellar activity. In the future, I'm interested in developing machine learning techniques to characterize planetary signals 
-                                    and signatures of stellar activity in
-                                    photometric surveys. I'm particularly interested in the detection and characterisation of circumbinary planets through
-									their dynamical perturbations on their host binaries, and we have recently been awarded an Australian Research Council Discovery
-									Project grant to do exactly this.
+                                We are searching these FFIs to find new planets, both through their transits and through the dynamical signatures
+									they <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...981..106M/">impart on their neighbours</a>.
+									In the future, I'm interested in developing machine learning techniques to characterize planetary signals and find
+									signs of dynamical perturbations in planetary systems that can be used in both the TESS dataset and upcoming transit surveys.
+
                                 </p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-                                <span class="image fit"><img src="images/MAROON-X.jpg" alt="" /></span>     
+                                <span class="image fit"><img src="images/cbp.jpg" alt="" /></span>
                                 <br>
-								<h3>Understanding Planets and Stellar Activity from the Ground</h3>
-								<p> The first exoplanets discovered around Sun-like stars were discovered through the analysis of high-resolution spectra. 
-                                    Today, through decades of monitoring we have thousands of spectra of tens of thousands of
-                                    stars from ground-based facilities. Instead of treating each star individually, what can we learn from these bulk observations?
-                                    I'm interested in using data-driven models built on these observations to better understand stellar activity signals and how best
-                                    to separate these signals from the signatures of small planets. 
-                                    To that effect, I'm currently applying the <a href="https://arxiv.org/abs/1901.00503">wobble</a> framework to stars observed with the 
-                                    HIRES instrument at the W.M. Keck observatory to better separate effects from the star, its orbiting planet, and the Earth's atmosphere.
+								<h3>Searching for Circumbinary Planets via Apsidal Precession</h3>
+								<p> The <i>Kepler</i> and <i>TESS</i> telescopes have combined to find more than a dozen circumbinary planets, which orbit
+									around two stars instead of only one. These planets provide the opportunity to understand how planetary
+									systems form and evolve in dynamically complex environments, and can inform observations of similarly
+									complex systems, such as those in resonant configurations around single stars.
+									Those circumbinary planets have all previously been found by the transit method, limiting us to systems that are
+									coplanar between the orbital axis of the host binary and the planet itself.
+									We have approached the search for these planets in a different direction, searching for signatures of apsidal precession
+									in stellar eclipsing binaries which must be caused by a third body in the system. While the precession signal itself
+									could be caused by third star or other object (maybe even a black hole), with careful RV monitoring we can determine which
+									systems likely host planets.
+									We've begun this work and recently announced our first tranche of
+									<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251207934T/abstract">possible planet candidates</a>, and are
+									now extending this work to include new data and to begin following up our candidates.
+									We have recently been awarded an Australian Research Council Discovery
+									Project grant to do this project, and are happy to collaborate with others on these projects.
                                 </p>
 							</section>
 						</div>
@@ -125,7 +133,7 @@
 								<h1>Curriculum Vitae</h1>
 							</header>
                            
-                                Click on the button below for a PDF of my CV. (Last updated 12 January 2021.)<br>
+                                Click on the button below for a PDF of my CV. (Last updated 24 February 2026.)<br>
                                 A complete list of my publications and related metrics can be found at the 
                                     <a href=https://ui.adsabs.harvard.edu/search/filter_database_fq_database=OR&filter_database_fq_database=database:%22astronomy%22&q=author%3A(%22montet%2C%20b%22)&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&sort=date%20desc%2C%20bibcode%20desc><u>NASA ADS</u></a>.
                                <br><p></p>
@@ -168,7 +176,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Benjamin Montet 2019-2021. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Benjamin Montet 2019-2026. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 				</div>
